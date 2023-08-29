@@ -1,0 +1,71 @@
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid lightslategray; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 300px;
+  }
+  body{
+ 
+    background-image: url ("./backround img.PNG")}
+  .titre{
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .img1{
+    width: 300px;
+    position: relative;
+    
+    margin-left: 100px;
+  }
+  .img2{
+    width: 300px;
+    margin-left: 600px;
+    
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+   .nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px; 
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 20px;
+  }
+
+
